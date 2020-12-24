@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+/*---------------------global starts --------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+.wrapper {
+  width: 82%;
+  margin: 0 auto;
+}
+/*---------------------global ends -----------------------------------------------*/
+
+
+/*-----------navbar starts--------------------------------------------------------*/
+.nav {
+  background-color: #0fc690;
+}
+
+.navbar-content {
+  display: flex;
+  padding: 30px 0;
+  align-items: center;
+}
+
+.navbar-heading{
+  font-size: 1.6rem;
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-lists ul{
+  margin: 0;
+  padding-left: 236px;
+  display: flex;
+}
+.navbar-lists li {
+  padding-right: 69px;
+  letter-spacing: 0.05rem;
+  list-style-type: none;
+}
+
+.navbar-lists a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-lists a:hover {
+  color: #000;
+  transition: color 0.5s;
+}
+
+/*-----------navbar endss--------------------------------------------------------*/
+
+/*-----------section1 starts--------------------------------------------------------*/
+.section1 {
+  position: relative;
+  padding-bottom: 75px;
+}
+
+.section1-bg-image {
+  background: url("./images/banner2.png") no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.section1-content {
+  position: absolute;
+  top: 26%;
+  text-align: center;
+  color: #fff;
+  left: 17%;
+  right: 17%;
+}
+
+.section1-heading {
+  font-size: 2.2rem;
+}
+.section1-para {
+  margin: 15px 0;
+}
+
+.section1-btn {
+  background-color:#0fc690 ;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.section1-btn:hover {
+  background-color:#000 ;
+  transition: background-color 0.5s;
+
+}
+
+
+
+
+/*-----------section1 ends--------------------------------------------------------*/
+
+/*-----------section2 starts--------------------------------------------------------*/
+
+
+.section2-content {
+  text-align: center;
+
+}
+.section2-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #0fc690;
+  padding-bottom: 1.5px;
+  /* margin-bottom: 90px; */
+}
+
+.section2-para {
+  color: #666666;
+  line-height: 1.8rem;
+  padding: 25px 0 65px 0;
+}
+
+.section2-btn {
+  background-color:#000 ;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 50px;
+  margin-top: 60px;
+  margin-bottom: 90px;
+
+}
+
+.section2-btn:hover {
+  background-color:#0fc690 ;
+  transition: background-color 0.5s;
+
+
+}
+
+
+/*-----------section2 ends--------------------------------------------------------*/
+/*-----------section3 starts--------------------------------------------------------*/
+
+.section3 {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+
+}
+
+.section3-img {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto auto auto;
+}
+
+.section3-para {
+  color: #666666;
+  line-height: 1.8rem;
+  padding: 25px 80px 55px;
+  font-size: 14px;
+}
+/*-----------section3 ends--------------------------------------------------------*/
+
+/*-----------section4 starts--------------------------------------------------------*/
+.section4 {
+  padding-top: 70px;
+}
+.section4-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1.2px;
+}
+
+.section4-img {
+  text-align: center;
+}
+
+.section4-btn {
+  background-color:#000 ;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  margin-top: -50px;
+  margin-bottom: 80px;
+
+}
+
+
+
+/*-----------section4 ends--------------------------------------------------------*/
+
+
+/*-----------section5 starts--------------------------------------------------------*/
+.section5 {
+  background-color:#0fc690 ;
+  padding-top: 50px;
+
+}
+
+.section5-heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section5-heading span {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 8px;
+}
+
+.section5-left {
+  text-align: center;
+  width: 100%;
+  margin: 0 115px 0 115px;
+}
+
+.section5-left, .section5-right{
+  background-color: #fff;
+}
+
+.section5-left h3 {
+  color: #0fc690;
+  font-weight: lighter;
+  font-size: 19px;
+}
+
+.section5-left span, .section5-left p {
+  color: #121514;
+  font-weight: 200px;
+}
+
+.section5-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  padding: 66px 0;
+}
+
+.section5-right form > input, 
+.section5-right form textarea {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/*-----------section5 ends--------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
